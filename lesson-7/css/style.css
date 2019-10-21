@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 716px;
+    background-color: #f9f9f9;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 125px;
+   
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 293px;
+}
+p {
+    text-align: center;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    width: 263px;
+    height: 210px;
+}
+.name {
+    font: 16px Arial;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.price {
+    font: bold 18px Arial;
+    margin-bottom: 25px;
+}
+button {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 55px;
+    font: bold 13px Arial;
+    border: 1px solid #23bac1;
+    background: #f9f9f9;
+    color: #23bac1;
+    font-size: 13px;
+}
+.butt {
+    display: flex;
+    justify-content: center;
+    
+}
