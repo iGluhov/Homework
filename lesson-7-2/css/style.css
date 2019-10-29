@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+.main {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    margin-top: 3%;
+    width: 100%;
+    height: 70vh;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 40%;
+    height: 100%;
+    min-width: 300px;
+    
+}
+.image-1 {
+    height: auto;
+    width: 60%;
+   
+    
+}
+.text {
+    width: 60%;
+    height: 100%;
+    min-width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    }
+h1 {
+    font: bold 48px Tahoma;
+    margin-top: 3vh;
+    margin-bottom: 0;
+    max-width: 550px;
+    
+}
+h2 {
+    font: normal 30px Tahoma;
+    max-width: 550px;
+    margin-top: 0;
+    margin-bottom: 3vh;
+}
+p {
+    max-width: 550px;
+    font:  normal 18px Tahoma;
+}
+.price {
+    font: normal 48px Tahoma;
+    margin: 5vh 0;
+}
+.buy {
+    width: 175px;
+    height: 67px;
+    background-color: #f15921;
+    color: white;
+    font: bold 24px Tahoma;
+    border-radius: 10px;
+    border: 1px solid #f15921;
+    margin-right: 40px;
+}
+.buy, .buy:visited, .buy:focus, .buy:active, .buy:hover {
+    outline: 0 none !important;
+}
+.more {
+    width: 287px;
+    height: 67px;
+    background-color: white;
+    color: #f15921;
+    font: bold 24px Tahoma;
+    border-radius: 10px;
+    border: 2px solid #f15921;
+
+}
+.more, .more:visited, .more:focus, .more:active, .more:hover {
+    outline: 0 none !important;
+}
+
+.delivery {
+    width: 100%;
+    height: 30vh;
+    min-width: 1000px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-around;
+}
+.header {
+    font: bold 30px Tahoma;
+    padding: 8% 8%;
+    width: 350px;
+    
+
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    align-items: center;
+    width: 23%;
+   
+}
+.card img {
+    margin-bottom: 5%;
+}
+.card p {
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(51, 51, 51);
+       
+  
+}
+
+@media (max-width: 800px) {
+    .description {
+        margin-top: 3%;
+        width: 100%;
+        height: 70vh;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .card {
+        margin: 20px;
+    }
+    .delivery {
+        height: auto;
+    }
+
+}
