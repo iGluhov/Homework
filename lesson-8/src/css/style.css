@@ -79,10 +79,12 @@
     background-color: gray;
 }
 .btn-succes {
+    display: inline-block;
     background-color: #2dce89;
     margin-right: 30px;
 }
 .btn-primary {
+    display: inline-block;
     background-color: #5e72e4;
 }
 
@@ -178,5 +180,51 @@
 .people-block img {
     width: 100%;
 
+
+}
+@media (max-width: 900px) {
+    .main {
+        flex-direction: column;
+    }
+    .main-text {
+        width: 70%;
+    }
+    .main-image {
+        padding-top: 50px;
+    }
+    .btn-primary {
+        margin-top: 20px;
+    }
+    .wrap {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .block {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-wrap {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-block {
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .about-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
 
 }
