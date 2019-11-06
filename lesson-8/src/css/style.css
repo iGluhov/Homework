@@ -194,6 +194,9 @@
         max-width: 70%;
 
     }
+    .main-image img {
+        width: 90%;
+    }
     .btn-primary {
         margin-top: 20px;
     }
@@ -230,6 +233,26 @@
     }
     .container {
         width: 100%;
+    }
+    .section-heading {
+        width: 90%;
+    }
+    .people-section .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .people-wrap {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
