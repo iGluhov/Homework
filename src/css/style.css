@@ -1,0 +1,98 @@
+
+.hero {
+    background-color: #f4f5f7;
+    color: #32325f;
+}
+.social a {
+    margin-left: 10px;
+}
+.navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #95989a;
+}
+.main {
+    margin-top: 100px;
+    padding-bottom: 190px;
+    color: #32325f;
+}
+
+.subtitle .description .price-tag {
+    font-size: 20px;
+    font-weight: 400;
+}
+.description {
+    margin-top: 26px;
+}
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    
+}
+.price {
+    font-size: 48px;
+    font-weight: 400;
+}
+.buttons {
+    margin-top: 50px;
+}
+.buttons a {
+    text-decoration: none;
+}
+.btn-success {
+    display: inline-block;
+}
+.btn-primary {
+    display: inline-block;
+}
+.main-image img {
+    width: 70%;
+    margin-top: 50px;
+}
+.about-block {
+    padding-top: 100px;
+}
+.about-text {
+    margin-top: 90px;
+}
+.block-text {
+    margin-top: 40px;
+}
+.section-about {
+    padding-bottom: 100px;
+    color: #32325f;
+}
+.section-people {
+    background-color: #f4f5f7;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #32325f;
+}
+.people-image {
+    margin-top: 60px;
+}
+.section-people img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.footer {
+    padding-top: 30px;
+    padding-bottom: 100px;
+    background-color: #32325f;
+    
+}
+.footer {
+    color: #fff;
+}
+.footer h2 {
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+.footer a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    line-height: 35px;
+}
